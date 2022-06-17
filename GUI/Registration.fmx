@@ -1,0 +1,78 @@
+object RegistrationForm: TRegistrationForm
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 265
+  ClientWidth = 441
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object nameLabel: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 40.000000000000000000
+    Text = 'Name:'
+    TabOrder = 0
+  end
+  object idLabel: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 88.000000000000000000
+    Text = 'ID Number:'
+    TabOrder = 1
+  end
+  object usernameLabel: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 136.000000000000000000
+    Text = 'Username:'
+    TabOrder = 2
+  end
+  object passwordLabel: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 176.000000000000000000
+    Text = 'Password:'
+    TabOrder = 3
+  end
+  object registerButton: TButton
+    Position.X = 160.000000000000000000
+    Position.Y = 224.000000000000000000
+    TabOrder = 4
+    Text = 'Register'
+    OnClick = registerButtonClick
+  end
+  object nameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 56.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object idEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Position.X = 80.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object usernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    Position.X = 80.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object passwordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 8
+    Position.X = 72.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

@@ -1,0 +1,50 @@
+object myLecturerForm: TmyLecturerForm
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 360
+  ClientWidth = 550
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 120.000000000000000000
+    Size.Width = 369.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'LECTURER SECTION'
+    TabOrder = 0
+  end
+  object registerLecButton: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = '1. Register new Lecturer'
+    OnClick = registerLecButtonClick
+  end
+  object searchButton: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = '2. Search and Display Lecturer Data'
+  end
+  object previousButton: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = '3. Back to Previous Menu'
+  end
+end

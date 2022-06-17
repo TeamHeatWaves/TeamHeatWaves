@@ -1,0 +1,54 @@
+object myMenuForm: TmyMenuForm
+  Left = 0
+  Top = 0
+  Caption = 'myMenuForm'
+  ClientHeight = 339
+  ClientWidth = 606
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 88.000000000000000000
+    Size.Width = 489.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'COLLEGE MANAGEMENT SYSTEM'
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 240.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'MAIN MENU'
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Position.X = 88.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = '1. Student Section'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 376.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = '2. Lecturer Section'
+    OnClick = Button2Click
+  end
+end
